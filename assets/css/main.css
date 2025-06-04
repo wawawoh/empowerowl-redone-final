@@ -3729,29 +3729,7 @@ input, select, textarea {
 
 		}
 
-	body.is-preload #banner h2 {
-		-moz-transform: scale(0.95);
-		-webkit-transform: scale(0.95);
-		-ms-transform: scale(0.95);
-		transform: scale(0.95);
-		opacity: 0;
-	}
-
-		body.is-preload #banner h2:before, body.is-preload #banner h2:after {
-			width: 0;
-		}
-
-	body.is-preload #banner .more {
-		-moz-transform: translateY(8.5em);
-		-webkit-transform: translateY(8.5em);
-		-ms-transform: translateY(8.5em);
-		transform: translateY(8.5em);
-		opacity: 0;
-	}
-
-	body.is-preload #banner:after {
-		opacity: 1;
-	}
+	
 
 /* CTA */
 
