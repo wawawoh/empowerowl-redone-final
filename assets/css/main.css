@@ -4239,7 +4239,16 @@ footer {
 		text-decoration: none !important;
 	}
 }
-@media screen and (max-width:950px) {
+h2, h3, button, header {
+	text-transform: capitalize;
+}
+h1 {
+	text-transform: uppercase;
+	font-size: 2.2rem;
+	line-height: 3rem;
+	letter-spacing: 0.2;
+}
+@media screen and (max-width:782px) {
 	section {
 		gap: 5rem;
 	}
@@ -4250,6 +4259,7 @@ footer {
 				width: 90vw;
 			align-items: center;
 			margin: auto;
+			padding-top: 10%;
 			}
 			.cta {
 				font-size: 0.7rem;
@@ -4268,5 +4278,8 @@ footer {
 		}
 		.our-reviews {
 			padding-bottom: 5rem;
+		}
+		.final-part {
+			padding: 3rem 2rem ;
 		}
 	}
