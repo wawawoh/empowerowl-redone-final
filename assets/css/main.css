@@ -2433,6 +2433,7 @@ input, select, textarea {
 }
 
 .hero-container {
+	margin-top: 10rem;
   position: relative;
   display: flex;
   align-items: center;
@@ -2637,13 +2638,14 @@ h3 {
 	justify-content: center;
   }
 
-@media screen and (max-width: 782px) {
+@media screen and (max-width: 719px) {
   section {
     gap: 5rem;
   }
 
   .hero-container {
     flex-direction: column;
+	margin-top: 0
   }
 
   .hero-container .div-left {
@@ -2652,6 +2654,7 @@ h3 {
     width: 90vw;
     margin: auto;
     padding-top: 10%;
+	
   }
 
   .hero-container .cta {
