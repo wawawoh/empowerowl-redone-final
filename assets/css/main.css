@@ -2493,7 +2493,9 @@ input, select, textarea {
   aspect-ratio: 1/1;
   background: url(/images/check.svg) center/contain no-repeat;
 }
-
+.beneath {
+	margin-top: 0.5rem;
+}
 .benefits-list .my-scrolly {
   position: absolute;
   right: 0;
@@ -2676,5 +2678,7 @@ h3 {
     padding-bottom: 5rem;
   }
 
-  
+  .beneath.benefits-list {
+	padding-left: 0 ;
+  }
 }
