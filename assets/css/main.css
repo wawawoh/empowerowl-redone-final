@@ -2702,6 +2702,20 @@ h3 {
 .div-right {
 	padding-bottom: 0;
 }
+.hide {
+	display: none;
+}
+.fixed {
+	position: fixed;
+	bottom: 2rem;
+	left: 50%;
+	transform: translateX(-50%);
+	z-index: 1000;
+}
+.div-right {
+	height: 420px;
+
+}
 }
 a {
 	border: none;
