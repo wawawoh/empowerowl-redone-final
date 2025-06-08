@@ -2696,6 +2696,13 @@ h3 {
 	align-self: center;
   }
   .div-left {
-	padding-bottom: 0rem;
+	padding: 0 !important;
+	padding-top: 0 ;
 }
+.div-right {
+	padding-bottom: 0;
+}
+}
+a {
+	border: none;
 }
