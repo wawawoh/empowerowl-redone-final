@@ -2678,7 +2678,7 @@ h3 {
   }
 
   h3 {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     text-align: center;
     padding-bottom: 0.5rem;
   }
@@ -2719,4 +2719,7 @@ h3 {
 }
 a {
 	border: none;
+}
+.final-part {
+	text-align: center;
 }
