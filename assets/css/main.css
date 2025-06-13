@@ -1,11 +1,15 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,800,800italic");
-
+:root {
+  --blue: #c66700 ;
+  --darker: 	#954e24;
+}
 /*
 	Spectral by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+
 
 
 /* end of accordiaon  */
@@ -2580,7 +2584,7 @@ input, select, textarea {
 }
 
 .cta {
-  background-color: #ef5e4a;
+  background-color: var(--blue);
   align-self: flex-start;
   border-radius: 1.6rem;
   text-transform: uppercase;
@@ -2681,8 +2685,9 @@ h3 {
     font-size: 0.8rem;
     text-align: center;
     padding-bottom: 0.5rem;
+	
   }
-
+  
   .our-reviews {
     padding-bottom: 5rem;
 	  transform: scale(1);
