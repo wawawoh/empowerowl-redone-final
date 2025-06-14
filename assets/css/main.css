@@ -2515,6 +2515,7 @@ input, select, textarea {
   padding: 0.5rem;
   border: 2px solid white;
   height: 5rem;
+  overflow: hidden;
 }
 
 .accordian .accordian-header img {
@@ -2527,11 +2528,12 @@ input, select, textarea {
   flex-direction: column;
   gap: 3rem;
   padding: 1rem;
+  
 }
 
 .accordian-container p {
   padding: 0 1rem;
-  max-height: 0;
+  /* max-height: 0; */
   overflow: hidden;
   text-align: start;
   background: none;
